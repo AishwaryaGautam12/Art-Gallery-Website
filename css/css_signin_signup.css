@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url("https://cdn.theculturetrip.com/wp-content/uploads/2019/04/feature_vertical-gallery-chicago-_-8.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity:0.8;
+}
+.container{
+    width:35%;
+    height:31rem;
+    /* border:2px solid grey; */
+    border-radius:20px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    z-index:-1;
+}
+.container h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    margin: 1rem ;
+}
+.container-item{
+    margin:10%;
+    width:80%;
+    margin-bottom:0%;
+}
+
+.container-item i{
+    margin:0px;
+    width:10%;
+}
+#chkbox{
+    margin:5px;
+    width:5%;
+    padding:0;
+}
+.container-item a{
+    /* margin-left:20%; */
+    float: right;
+    color:rgb(64, 64, 248);
+}
+
+.btn{
+    padding: 2% 19%;
+    margin: 10%;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+    font-family: monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(190, 235, 190);
+    color:red;
+}
+.container p{
+    font-weight: bold;
+    font-family: monospace;
+    font-size:15px;
+}
+.container p a{
+    /* margin-left:20%; */
+    float: right;
+    color:rgb(64, 64, 248);
+    text-decoration: none;
+}
